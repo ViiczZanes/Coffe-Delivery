@@ -1,0 +1,35 @@
+.btn {
+  width: 0.875rem;
+  height: 0.875rem;
+  border: none;
+  background: none;
+  color: #8047F8;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+}
+
+.input {
+  text-align: center;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #272221;
+  font-family: var(--font-Roboto);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.amount {
+  flex: 1;
+  background: var(--gray-600);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
